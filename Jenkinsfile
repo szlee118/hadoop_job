@@ -11,7 +11,7 @@ node {
 
   stage('Access File') { 
     def filePath = "${env.WORKSPACE}/var/jenkins_home/workspace/sonar-git-jenkins/WordCount.java" 
-    // Display file content sh "cat ${filePath}" 
+    sh "cat ${filePath}" 
   }
   
   stage('Trigger Dataproc') {
