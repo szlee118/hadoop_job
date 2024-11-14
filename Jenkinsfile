@@ -10,7 +10,7 @@ node {
   }
 
   stage('Access File') { 
-    def filePath = "${env.WORKSPACE}/var/jenkins_home/workspace/sonar-git-jenkins/WordCount.java" 
+    def filePath = "${env.WORKSPACE}/WordCount.java" 
     sh "cat ${filePath}" 
   }
   
