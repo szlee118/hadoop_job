@@ -8,4 +8,7 @@ node {
       sh "${scannerHome}/bin/sonar-scanner"
     }
   }
+  stage('Trigger Dataproc') {
+    build 'dataproc'
+  }
 }
