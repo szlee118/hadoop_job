@@ -1,0 +1,6 @@
+Hello world
+Hello Hadoop
+Hadoop is a distributed system
+Hadoop Hadoop Hadoop
+Distributed systems are powerful
+Hello world
