@@ -10,8 +10,10 @@ node {
   }
 
   stage('Access File') { 
-    def filePath = "${env.WORKSPACE}/WordCount.java" 
-    sh "cat ${filePath}" 
+    def filePath1 = "${env.WORKSPACE}/WordCount.java" 
+    sh "cat ${filePath1}" 
+    def filePath2 = "${env.WORKSPACE}/WordCount.java" 
+    sh "cat ${filePath2}" 
   }
   
   stage('Trigger Dataproc') {
